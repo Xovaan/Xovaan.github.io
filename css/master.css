@@ -8,15 +8,15 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: blue !important;
   text-align: center;
   display: inline;
 }
 
 h2 {
-  color: red;
+  color: red !important;
   text-align: center;
-display: inline
+  display: inline
 }
 
 #torchleft {
@@ -24,6 +24,7 @@ display: inline
   height: 3em;
   overflow: auto;
 }
+
 #torchright {
   width: 3em;
   height: 3em;
@@ -36,13 +37,30 @@ display: inline
   overflow: auto;
 }
 
+.jumbotron {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  color: orange !important;
+}
+
+
 #rsright {
   width: 3em;
   height: 3em;
   overflow: auto;
 }
+
+
 /*#div01 {
   overflow: auto;
+}*/
+
+
+/*.navbar-inverse{
+  background-color: #F8F8F8;
+      border-color: #E7E7E7;
 }*/
 
 
