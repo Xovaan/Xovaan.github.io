@@ -16,6 +16,7 @@ h1 {
 h2 {
   color: red;
   text-align: center;
+display: inline
 }
 
 #torchleft {
@@ -29,9 +30,20 @@ h2 {
   overflow: auto;
 }
 
-#div01 {
+#rsleft {
+  width: 3em;
+  height: 3em;
   overflow: auto;
 }
+
+#rsright {
+  width: 3em;
+  height: 3em;
+  overflow: auto;
+}
+/*#div01 {
+  overflow: auto;
+}*/
 
 
 /*
