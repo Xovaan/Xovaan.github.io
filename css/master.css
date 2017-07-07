@@ -37,6 +37,12 @@ h2 {
   overflow: auto;
 }
 
+#rsright {
+  width: 3em;
+  height: 3em;
+  overflow: auto;
+}
+
 .jumbotron {
   background-color: transparent !important;
 }
@@ -46,11 +52,7 @@ h2 {
 }
 
 
-#rsright {
-  width: 3em;
-  height: 3em;
-  overflow: auto;
-}
+
 
 
 /*#div01 {
