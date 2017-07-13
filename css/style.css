@@ -10,9 +10,11 @@
   background-size: fixed;
   margin: auto;
 }
+
 #quote {
-color: white;
+  color: white;
 }
+
 body {
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
@@ -52,11 +54,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 
-.main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+
+/*.main-header {
+  background: url("../img/stars01.gif") repeat no-repeat;
   background-size: cover;
   min-height: 610px;
-}
+}*/
 
 .bg-color {
   background-color: RGBA(0, 0, 0, 0.41);
@@ -88,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
-  padding: 0px 20px;
+  padding: 0px 10px;
   text-transform: uppercase;
 }
 
@@ -97,13 +100,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top {
-  padding: 40px 0;
+  padding: 15px 0;
   transition: all 0.5s;
 }
 
 .top-nav-collapse {
   background: rgba(0, 0, 0, .31);
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .wrapper {
@@ -192,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
-#feature {
+#whyhireme {
   background-color: #f8f8f8;
 }
 
@@ -421,36 +424,92 @@ a, a:hover {
 /****/
 
 @media (min-width: 451px) and (max-width: 900px) {
+
   .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+  }
+  .navbar-toggle:hover, .navbar-toggle {
+    background-color: transparent;
+    color: #fff;
+  }
+  /*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: rgba(255, 255, 255, .31);
+    background-color: rgba(0, 0, 0, .00);
+    color: #FFD34E;
+  }*/
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+  }
+  .navbar-collapse.collapse{
+    display: block !important;
+  }
+
+  .navbar-nav>li, .navbar-nav{
+    float: left !important;
+  }
+
+  .navbar-nav.navbar-right:last-child{
+    margin-right: -15px !important;
+  }
+
+  .navbar-right{
+    float: right !important;
+  }
+  .top-title {
+    font-size: 4vw;
+  }
+  .title {
+    font-size: 15vw;
+  }
+  .sub-title {
+    font-size: 6vw;
   }
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
   .navbar-toggle:hover, .navbar-toggle {
-    background-color: #fff;
-    color: #000;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
   }
   .navbar-toggle {
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .navbar-default .navbar-nav>li>a {
     text-align: center;
-    background-color: rgba(255, 255, 255, .31);
-    color: #000;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
   }
-  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  /*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     background-color: rgba(255, 255, 255, .31);
     color: #FFD34E;
+  }*/
+  .navbar-collapse.collapse{
+    display: block !important;
+  }
+
+  .navbar-nav>li, .navbar-nav{
+    float: left !important;
+  }
+
+  .navbar-nav.navbar-right:last-child{
+    margin-right: -15px !important;
+  }
+
+  .navbar-right{
+    float: right !important;
   }
   .top-title {
-    font-size: 15px;
+    font-size: 4vw;
   }
   .title {
-    font-size: 50px;
+    font-size: 15vw;
   }
   .sub-title {
-    font-size: 24px;
+    font-size: 6vw;
   }
   .footer-copyright {
     text-align: center;
