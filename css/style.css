@@ -11,9 +11,7 @@
   margin: auto;
 }
 
-#quote {
-  color: white;
-}
+
 
 body {
   line-height: 1.5;
@@ -53,13 +51,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
   background-color: transparent;
 }
-
-
-/*.main-header {
-  background: url("../img/stars01.gif") repeat no-repeat;
-  background-size: cover;
-  min-height: 610px;
-}*/
 
 .bg-color {
   background-color: RGBA(0, 0, 0, 0.41);
@@ -175,9 +166,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
-#cta-1 {
-  padding: 40px 0px;
-}
 
 .cta-info {
   border: 5px solid #FFD34E;
