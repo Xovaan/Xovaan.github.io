@@ -330,7 +330,7 @@
   }
 
   .bg-image-2 {
-    background: url('../img/stars01.gif') no-repeat center fixed;
+    background: url("../img/stars01.gif") no-repeat center fixed;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -341,17 +341,6 @@
     background-size: cover;
   }
 
-  .bg-image-flowers {
-    background: url('../img/flowers.jpg') no-repeat center fixed;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
   .section {
     position: relative;
@@ -540,7 +529,6 @@ color: #FFD34E;
   }
 
   @media (min-width: 20px) and (max-width: 450px) {
-
     .navbar-toggle:hover, .navbar-toggle {
       background-color: transparent;
       color: #fff;
