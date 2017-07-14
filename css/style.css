@@ -1,3 +1,5 @@
+
+
 #parallax {
   /* The image used */
   background-image: url("../img/rotatingskull01.gif");
@@ -10,8 +12,6 @@
   background-size: fixed;
   margin: auto;
 }
-
-
 
 body {
   line-height: 1.5;
@@ -166,7 +166,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
-
 .cta-info {
   border: 5px solid #FFD34E;
   padding: 40px 0px;
@@ -183,10 +182,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
+#workexperience {
+  align-items: center;
+}
+
 #whyhireme {
   background-color: #f8f8f8;
 }
 
+#resume {
+  background-color: #f8f8f8;
+}
+#skills {
+  background-color: #f8f8f8;
+}
 .head-title {
   color: #2b2b2b;
   font-size: 32px;
@@ -234,6 +243,11 @@ p {
 .icon-text {
   margin-left: 73px;
   padding: 0px 25px 25px 0px;
+}
+
+.icon-subtext {
+  margin-left: 73px;
+  padding: 0px 5px 5px 0px;
 }
 
 h3.txt-tl {
@@ -412,7 +426,6 @@ a, a:hover {
 /****/
 
 @media (min-width: 451px) and (max-width: 900px) {
-
   .section-title {
     margin-bottom: 10px;
   }
@@ -430,19 +443,16 @@ a, a:hover {
     background-color: rgba(255, 255, 255, 0);
     color: #fff;
   }
-  .navbar-collapse.collapse{
+  .navbar-collapse.collapse {
     display: block !important;
   }
-
-  .navbar-nav>li, .navbar-nav{
+  .navbar-nav>li, .navbar-nav {
     float: left !important;
   }
-
-  .navbar-nav.navbar-right:last-child{
+  .navbar-nav.navbar-right:last-child {
     margin-right: -15px !important;
   }
-
-  .navbar-right{
+  .navbar-right {
     float: right !important;
   }
   .top-title {
@@ -475,19 +485,16 @@ a, a:hover {
     background-color: rgba(255, 255, 255, .31);
     color: #FFD34E;
   }*/
-  .navbar-collapse.collapse{
+  .navbar-collapse.collapse {
     display: block !important;
   }
-
-  .navbar-nav>li, .navbar-nav{
+  .navbar-nav>li, .navbar-nav {
     float: left !important;
   }
-
-  .navbar-nav.navbar-right:last-child{
+  .navbar-nav.navbar-right:last-child {
     margin-right: -15px !important;
   }
-
-  .navbar-right{
+  .navbar-right {
     float: right !important;
   }
   .top-title {
