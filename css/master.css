@@ -1,25 +1,23 @@
   #stars01 {
   background: url("../img/stars01.gif");
-  /*background-repeat: repeat;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  margin: auto;*/
   background-attachment: fixed;
   background-repeat: repeat;
   background-position: center center;
+  width: 100%
 }
-.navbar-brand
-{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin:0 auto;
+
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
 }
+
 .navbar-toggle {
-    z-index:3;
+  z-index: 3;
 }
+
 #torchleft {
   width: 3em;
   height: 3em;
