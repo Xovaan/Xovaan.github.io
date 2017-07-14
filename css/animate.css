@@ -21,7 +21,7 @@
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
   animation-duration: 3s;
   animation-delay: 3s;
 }
